@@ -1,0 +1,19 @@
+.main-course-contaniner,.goods-container{
+	width: 1200px;
+	margin: 0 auto;
+}
+.main-course-contaniner div{
+	float: left;
+}
+.main-course-contaniner:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.goods-container{
+	width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>List</title>
+</head>
+<body>
+    <h1>分类商品</h1>
+    <div class="list-container"></div>
+
+
+<script src="../js/default.js" type="text/javascript" charset="utf-8"></script>
+<script src="../js/jquery-3.2.1.js" type="text/javascript" charset="utf-8"></script>
+<script src="../js/navigater.js" type="text/javascript" charset="utf-8"></script>
+<script src="../js/login.js" type="text/javascript" charset="utf-8"></script>
+<script src="../js/goods.js" type="text/javascript" charset="utf-8"></script>
+<script src="../js/list.js" type="text/javascript" charset="utf-8"></script>
+<script src="../js/index.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+        new List().createView(PRODUCT_HOST+GOODS,$(".list-container"));
+    </script>
+</body>
+</html>
